@@ -1,0 +1,16 @@
+=head1 NAME
+
+LightCycle6 -- End of line.
+
+=head1 SYNOPSIS
+
+A simple terminal game of Light Cycle.
+
+=head1 RATIONALE
+
+Who doesn't love Light Cycle? I wanted a game to play on my terminal,
+so I wrote this.
+
+=head1 AUTHORS
+
+Ashton Wiersdorf L<https://github.com/ashton314>
