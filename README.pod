@@ -6,11 +6,67 @@ LightCycle6 -- End of line.
 
 A simple terminal game of Light Cycle.
 
+=head1 DESCRIPTION
+
+B<NOTE>: This is a work in progress, so please forgive any and all
+incomplete documentation, testing, etc.
+
+This project is primarily to help me get familiar with Perl's AnyEvent
+and Curses modules. Emphasis on AnyEvent---Curses is evil. :-P
+Basically, this is a game where you control the blue light cycle, and
+the computer controls the red light cycle. First person to crash looses.
+
+=head2 Project Organization
+
+See the F<doc/> file for more details.
+
+=head2 Cycle
+
+Cycle.pm is the base class for the game's light cycle objects. See
+F<doc/Cycle.pod>. Cycle/ holds the light cycle sub-classes. Again, see
+F<doc/Cycle.pod>.
+
+=head2 grid.pl
+
+This is the program you run. Why? Because light cycles only run on the
+grid.
+
+=head2 t
+
+This directory contains all the test files.
+
+=head1 INSTALL
+
+I recommend a combination of `plenv' and `Carton'. See
+L<https://metacpan.org/pod/Carton>.
+
+=head2 Dependences
+
+To run this project, you will need the following modules:
+
+=over 4
+
+=item * AnyEvent
+
+A pretty interface to event loops.
+
+=item * EV
+
+A wicked good event loop back-end.
+
+=item * Quantum::Superpositions
+
+Why? 'Cause it's cool.
+
+=back
+
 =head1 RATIONALE
 
-Who doesn't love Light Cycle? I wanted a game to play on my terminal,
+Who doesn't love light cycle? I wanted a game to play on my terminal,
 so I wrote this.
 
-=head1 AUTHORS
+I also need to learn event-driven programming. Therefore, this game.
+
+=head1 AUTHOR
 
 Ashton Wiersdorf L<https://github.com/ashton314>
