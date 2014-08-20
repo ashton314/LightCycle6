@@ -1,0 +1,81 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  AnyEvent-7.07
+    pathname: M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
+    provides:
+      AE undef
+      AE::Log::COLLECT undef
+      AE::Log::FILTER undef
+      AE::Log::LOG undef
+      AnyEvent 7.07
+      AnyEvent::Base 7.07
+      AnyEvent::CondVar 7.07
+      AnyEvent::CondVar::Base 7.07
+      AnyEvent::DNS undef
+      AnyEvent::Debug undef
+      AnyEvent::Debug::Backtrace undef
+      AnyEvent::Debug::Wrap undef
+      AnyEvent::Debug::Wrapped undef
+      AnyEvent::Debug::shell undef
+      AnyEvent::Handle undef
+      AnyEvent::IO undef
+      AnyEvent::IO::IOAIO undef
+      AnyEvent::IO::Perl undef
+      AnyEvent::Impl::Cocoa undef
+      AnyEvent::Impl::EV undef
+      AnyEvent::Impl::Event undef
+      AnyEvent::Impl::EventLib undef
+      AnyEvent::Impl::FLTK undef
+      AnyEvent::Impl::Glib undef
+      AnyEvent::Impl::IOAsync undef
+      AnyEvent::Impl::Irssi undef
+      AnyEvent::Impl::POE undef
+      AnyEvent::Impl::Perl undef
+      AnyEvent::Impl::Qt undef
+      AnyEvent::Impl::Qt::Io undef
+      AnyEvent::Impl::Qt::Timer undef
+      AnyEvent::Impl::Tk undef
+      AnyEvent::Log undef
+      AnyEvent::Log::COLLECT undef
+      AnyEvent::Log::Ctx undef
+      AnyEvent::Log::FILTER undef
+      AnyEvent::Log::LOG undef
+      AnyEvent::Loop undef
+      AnyEvent::Socket undef
+      AnyEvent::Strict undef
+      AnyEvent::TLS undef
+      AnyEvent::Util undef
+    requirements:
+      ExtUtils::MakeMaker 0
+  Class-Multimethods-1.70
+    pathname: D/DC/DCONWAY/Class-Multimethods-1.70.tar.gz
+    provides:
+      Class::Multimethods 1.70
+    requirements:
+      ExtUtils::MakeMaker 0
+  EV-4.17
+    pathname: M/ML/MLEHMANN/EV-4.17.tar.gz
+    provides:
+      EV 4.17
+      EV::MakeMaker undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      common::sense 0
+  Quantum-Superpositions-2.02
+    pathname: L/LE/LEMBARK/Quantum-Superpositions-2.02.tar.gz
+    provides:
+      Quantum::Superpositions 2.02
+      Quantum::Superpositions::Conj 2.02
+      Quantum::Superpositions::Conj::True 2.02
+      Quantum::Superpositions::Disj 2.02
+    requirements:
+      Carp 0
+      Class::Multimethods 0
+      ExtUtils::MakeMaker 0
+      strict 0
+  common-sense-3.73
+    pathname: M/ML/MLEHMANN/common-sense-3.73.tar.gz
+    provides:
+      common::sense 3.73
+    requirements:
+      ExtUtils::MakeMaker 0
